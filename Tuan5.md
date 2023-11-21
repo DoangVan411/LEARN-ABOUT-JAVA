@@ -1,5 +1,39 @@
 # [BUỔI 5] - DEV THÌ KHÔNG CHỈ VIẾT CODE
 
+<!-- TOC -->
+* [[BUỔI 5] - DEV THÌ KHÔNG CHỈ VIẾT CODE](#bui-5---dev-th-khng-ch-vit-code)
+  * [1. Version control là gì và tại sao cần dùng nó?](#1-version-control-l-g-v-ti-sao-cn-dng-n)
+    * [Tác dụng của VCS](#tc-dng-ca-vcs)
+  * [2.Các khái niệm về Git](#2cc-khi-nim-v-git)
+    * [Git là gì?](#git-l-g)
+    * [Một số thuật ngữ quan trọng](#mt-s-thut-ng-quan-trng)
+      * [2.1 Repository](#21-repository)
+      * [2.2 Brand và Checkout](#22-brand-v-checkout)
+      * [2.3 Commit](#23-commit)
+      * [2.4 Merge](#24-merge)
+      * [2.5 Pull](#25-pull)
+      * [2.6](#26)
+      * [2.7 Clone](#27-clone)
+      * [2.8 Fork](#28-fork)
+  * [3. Pull request](#3-pull-request)
+    * [Pull Request là gì?](#pull-request-l-g)
+    * [Khi nào cần Pull request](#khi-no-cn-pull-request)
+    * [Cách tạo 1 Pull request trên Github](#cch-to-1-pull-request-trn-github)
+  * [4. UML là gì? Lí do cần vẽ UML](#4-uml-l-g-l-do-cn-v-uml)
+    * [UML là gì?](#uml-l-g)
+    * [Tại sao cần vẽ UML](#ti-sao-cn-v-uml)
+  * [5. Mô hình Class Diagram, Activity Diagram](#5-m-hnh-class-diagram-activity-diagram)
+    * [5.1 Class Diagram](#51-class-diagram)
+      * [Định nghĩa](#nh-ngha)
+      * [Các tính chất cơ bản của class diagram](#cc-tnh-cht-c-bn-ca-class-diagram)
+      * [Access Modifier trong class diagram](#access-modifier-trong-class-diagram)
+      * [Relationship trong class diagram](#relationship-trong-class-diagram)
+      * [Multiplicity trong class diagram](#multiplicity-trong-class-diagram)
+    * [5.2 Activity Diagram](#52-activity-diagram)
+      * [Lợi ích của Activity Diagram](#li-ch-ca-activity-diagram)
+      * [Các thành phần trong Activity Diagram](#cc-thnh-phn-trong-activity-diagram)
+<!-- TOC -->
+
 ## 1. Version control là gì và tại sao cần dùng nó?
 
 Trong kỹ nghệ phần mềm, một hệ thống quản lý phiên bản (còn viết là VCS theo từ tiếng Anh Version control systems) là một hệ thống lưu giữ các phiên bản của mã nguồn của sản phẩm phần mềm, giúp các lập trình viên có thể dễ dàng lấy lại phiên bản mong muốn.
